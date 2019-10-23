@@ -1,0 +1,94 @@
+body
+{
+    font-family: "segoe ui light";
+    background-image: url(../images/TFA_Landing\ Page-02.png);
+    background-size: cover;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+/* start taking user data  */
+
+.text_center
+{
+    text-align: center;
+}
+.d-flex
+{
+    display: flex;
+}
+.justify-content-center
+{
+    justify-content: center;
+}
+.header h1
+{
+    font-size: 65px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-top: 50px;
+    color: #fff;
+}
+.header label
+{
+    font-size: 20px;
+    font-weight: bold;
+    color:#fff;
+}
+.header input
+{
+    margin-top: 35px;
+    border-radius: 20px;
+    border: 2px solid tomato;
+}
+.header input:focus
+{
+    outline-style: none;
+}
+.header .widthInput , .header .heightInput 
+{
+    margin-right: 30px;
+    padding: 10px 15px;
+}
+.header .btn
+{
+ margin-top: 30px;
+ padding: 10px 25px;
+ border: 0px solid #000;
+ border-radius: 20px;
+ font-weight: bold;
+ font-size: 20px;
+ 
+}
+.header .btn:hover
+{
+    cursor: pointer;
+    border: 2px solid tomato;
+    
+}
+.header .btn:focus
+{
+    outline-style: none; 
+}
+/* end taking user data  */
+
+/* start table design */
+
+td 
+{
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+#my-table
+{
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+/* end table design */
+
